@@ -1,0 +1,52 @@
+
+.grail{
+	width: 100%;
+	min-height: 70px;
+	background: #0068FF;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.a-nav{
+	width: 100%;
+    min-height: 300px;
+    background: #67A4FF;
+    float: left;
+}
+.a-main{
+	width: 100%;
+    min-height: 300px;
+    background: #A5A6AB;
+    float: left;
+}
+.a-sidebar{
+	width: 100%;
+	min-height: 300px;
+	background: #66A3FE;
+    float: left;
+}
+.a-footer{
+	width: 100%;
+	min-height: 70px;
+	background: #0068FF;
+    float: left;
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .noPadding{
+        padding: 0px;
+    }
+
+    .a-main{
+        margin: 15px 0px;
+    }
+
+    .a-nav, .a-main, .a-sidebar{
+        min-height: 150px;
+        background: violet;
+    }
+
+}
